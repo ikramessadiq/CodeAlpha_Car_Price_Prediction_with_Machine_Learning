@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestRegressor
 import joblib
 
 # Charger les données pour entraîner le modèle
-df = pd.read_csv('car data.csv')
+df = pd.read_csv('car_data.csv')
 
 # Prétraitement des données avec des encodeurs séparés
 fuel_type_encoder = LabelEncoder()
